@@ -8,7 +8,7 @@ let end = moment();
 
 let predictions = [];
 
-while (current.format("YYYY-MM-DD") != end.format("YYYY-MM-DD")) {
+while (current <= end) {
     let prediction = Object.assign(predict(current.date(), current.format("MMM"), current.year()),  {
         day: current.date(),
         month: current.format("MMM"),
