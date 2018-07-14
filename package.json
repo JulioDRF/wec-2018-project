@@ -9,6 +9,9 @@
     "cheerio": "^1.0.0-rc.2",
     "csvtojson": "^2.0.6",
     "glob": "^7.1.2",
+    "graceful-fs": "^4.1.11",
+    "json2csv": "^4.1.6",
+    "moment": "^2.22.2",
     "request": "^2.87.0"
   }
 }
